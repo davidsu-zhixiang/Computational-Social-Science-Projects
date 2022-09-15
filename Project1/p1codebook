@@ -1,15 +1,11 @@
 (base) davidsu@MacBook-Pro-147 ~ % git clone https://github.com/davidsu-zhixiang/Computational-Social-Science-Projects.git
-Cloning into 'Computational-Social-Science-Projects'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Compressing objects: 100% (2/2), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-Receiving objects: 100% (3/3), done.
 
 cd Computational-Social-Science-Projects
+mkdir Project1
+cd Project1
 touch p1codebook
 vim p1codebook
-git add Project1/p1codebook
+git add *
 git commit -m main
-git git push --set-upstream origin main
+git push
 
